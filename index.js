@@ -12,7 +12,7 @@ app.use(cors({
 
 
 try{
-    mongoose.connect("mongodb+srv://arjuntudu9163:nsCNHXlznMk7JmhW@cluster0.cq6wv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    mongoose.connect("mongodb+srv://arjuntudu9163:jpu5bklk2uR5yvkw@cluster0.cq6wv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 }catch(e){
     if(e){
         console.log("database connection error",e);
